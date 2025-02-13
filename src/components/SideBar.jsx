@@ -111,7 +111,7 @@ const navigate = useNavigate();
       </DrawerHeader>
       <Divider />
 
-      <Avatar sx={{mx:"auto", height:open?  88 :55,width:open?  88 :55,my:1 ,border:"2px solid gray",transition:"0.25s"}} alt="Remy Sharp" src="src/53D7FDD1-975B-4516-B58C-44801CC6BAF4_1_102_o.jpeg" />
+      <Avatar sx={{mx:"auto", height:open?  88 :55,width:open?  88 :55,my:1 ,border:"2px solid gray",transition:"0.25s"}} alt="Aziz Sharp" src="src/components/53D7FDD1-975B-4516-B58C-44801CC6BAF4_1_102_o.jpeg" />
       <Typography align="center" sx={{fontSize: open? 17 :0,transition:"0.25s"}}>abdelaaziz </Typography>
       <Typography align="center" sx={{fontSize: open? 15 :0,transition:"0.25s",color: theme.palette.info.main}}>admin</Typography>
       <Divider />
