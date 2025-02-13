@@ -111,7 +111,11 @@ const navigate = useNavigate();
       </DrawerHeader>
       <Divider />
 
-      <Avatar sx={{mx:"auto", height:open?  88 :55,width:open?  88 :55,my:1 ,border:"2px solid gray",transition:"0.25s"}} alt="Aziz Sharp" src="public/images/aziz.jpg" />
+      <Avatar 
+  sx={{ mx: "auto", height: open ? 88 : 55, width: open ? 88 : 55, my: 1, border: "2px solid gray", transition: "0.25s" }} 
+  alt="Aziz Sharp" 
+  src="/images/aziz.png" 
+/>
       <Typography align="center" sx={{fontSize: open? 17 :0,transition:"0.25s"}}>abdelaaziz </Typography>
       <Typography align="center" sx={{fontSize: open? 15 :0,transition:"0.25s",color: theme.palette.info.main}}>admin</Typography>
       <Divider />
