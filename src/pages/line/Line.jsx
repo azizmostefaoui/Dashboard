@@ -97,7 +97,7 @@ const data = [
 
 function Line({ isDashboard = false }) {
   return (
-    <Box sx={{ height: isDashboard ? {  xs: "220px", sm: "300px", md: "250px" } : "75vh",width: isDashboard ? {  xs: "310px" } : "auto" }}>
+    <Box sx={{ height: isDashboard ? {  xs: "220px", sm: "300px", md: "250px" } : "75vh",width: isDashboard ? {  xs: "280px" , sm: "300px", md: "100%"} : "auto" }}>
       <ResponsiveLine
         data={data}
         margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
